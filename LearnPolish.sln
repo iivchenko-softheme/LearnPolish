@@ -40,20 +40,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = LearnPolish.Desktop\LearnPolish.Desktop.csproj
-		Policies = $0
-		$0.DotNetNamingPolicy = $1
-		$1.DirectoryNamespaceAssociation = None
-		$1.ResourceNamePolicy = FileFormatDefault
-		$0.TextStylePolicy = $2
-		$2.inheritsSet = Mono
-		$2.inheritsScope = text/plain
-		$2.scope = application/xml
-		$0.XmlFormattingPolicy = $3
-		$3.inheritsSet = Mono
-		$3.inheritsScope = application/xml
-		$3.scope = application/xml
-	EndGlobalSection
+	EndGlobalSection	
 EndGlobal
