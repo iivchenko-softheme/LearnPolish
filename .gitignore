@@ -3,4 +3,4 @@ bin/
 obj/
 StyleCop.Cache
 _ReSharper.dep/
-*.sln.DotSettings.user
+*.user

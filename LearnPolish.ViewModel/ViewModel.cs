@@ -23,9 +23,10 @@ namespace LearnPolish.ViewModel
 
         private bool _wrong;
 
-        public ViewModel()
+        public ViewModel(string words)
         {
             _words = new Words();
+            _words.ReadWords(words);
 
             WordLanguage = Language.Polish;
             TranslationLanguage = Language.Ukrainian;
