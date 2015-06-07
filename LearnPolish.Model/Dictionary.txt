@@ -63,7 +63,7 @@
 дитина;dziecko
 комп'ютер;komputer
 телефон;telefon
-komórka;мобілка
+мобілка;komórka
 книга;książka
 призвище;nazwisko
 ім'я;imię
