@@ -157,3 +157,137 @@
 сірий;szary
 білий;biały
 помаранчевий;pomarańczowy
+збиратись;wybierać się
+запрошувати;zapraszać
+летіти;lecieć
+лежати;leżeć
+просити;prosić
+думати;myśleć
+любити;lubić
+виїжджати;wyjeżdżać
+вчитись;uczyć się
+ходити;chodzić
+чистити;czyścić
+повторювати;powtarzać
+повторити;powtórzyć
+дякувати;dziękować
+допомога;pomoc
+працювати;pracować
+передати вітання;pozdrowić
+говорити;mówić
+проводити час;spędzać
+турбувати;przeszkadzać
+називатись;nazywać się
+думати;zastanawiać się
+наближатись;zbliżać się
+поїхати;pojechać
+знати;znać
+починатись;zaczynać się
+купити;kupić
+канікули;wakacje
+тиждень;tydzień
+квиток;bilet
+питання;pytanie
+медаль;medal
+чоловік;mąż
+студент;student
+студентка;studentka
+учень;uczeń
+учениця;uczennica
+біль;ból
+тільки;dopiero
+куди;dokąd
+коли;kiedy
+сьогодні;dziś
+сьогодні;dzisiaj
+іспит;egzamin
+екзамен;egzamin
+ще;jeszcze
+вже;już
+література;literatura
+палатка;namiot
+довгий;długi
+молодий;młody
+власний;własny
+останній;ostatni
+з учорашнього дня;od wczoraj
+адже;przecież
+рік;rok
+відпустка;urlop
+варто;warto
+вітрильне судно;żaglówka
+диктант;dyktando
+викладач;wykładowca
+лектор;lektor
+збори;zebranie
+стаття;artykuł
+номер;numer
+писати;pisać
+письмовий;pisemny
+перекладати;tłumaczyć
+перекласти;przetłumaczyć
+переклад;tłumaczenie
+разом;razem
+ремонт;remont
+робити;robić
+перевіряти;sprawdzać
+свіжий;świeży
+автомобіль;auto
+автор;autor
+щоденно;codziennie
+частіше;częściej
+газета;dziennik
+європейський;europejski
+інший;inny
+клас;klasa
+віддати;oddać
+этаж;piętro
+варшавский;warszawski
+жіночий;żeński
+тоді;wtedy
+година;godzina
+хвилина;minuta
+щоб;żeby
+комунікація;komunikacja
+трохи; trochę
+думати;myśleć
+радіти; cieszyć się
+бути правим; mieć rację
+жарт;żart
+цікавий;ciekawy
+мабуть;chyba
+закінчити;kończyć
+високий;wysoki
+брудний;brudny
+працьовитий;pracowity
+великий;gruby
+сумний;smutny
+молодий; młody
+бридкий;brzydky
+хворий;chory
+лінивий;leniwy
+щуплий;szczupły
+низький;nisky
+гарний;pszystojny
+веселий;wesoły
+гарна;ładna
+втомлений;zmęczony
+спортивний;wysportowany
+молодий;młody
+здоровий;zdrowy
+чистий;chysty
+агресивний;agresywny
+активний;aktywny
+амбіційний;ambitny
+привабливий; atrakcyjny
+енергійний;energiczny
+розумний;inteligentny
+романтичний;romantyczny
+невдалий; sfrustrowany
+спонтанний;spontaniczny
+талановитий; utalentowany
+наголошений; zestresowany
+креативний;kreatywny
+високий;wysoki
+добрий; ładny
+малий;mały
