@@ -16,8 +16,6 @@ namespace LearnPolish.Model
                 { Language.Ukrainian, new Dictionary<Word, IList<Word>>() },
                 { Language.Polish, new Dictionary<Word, IList<Word>>() }
             };
-
-            ReadWords();
         }
 
         public IEnumerable<Word> GetWords()
@@ -35,17 +33,20 @@ namespace LearnPolish.Model
             return _dictionary[word.Language][word];
         }
 
-        private void ReadWords()
+        public void ReadWords(string rowWords)
         {
-            using (var file = File.Open(@"LearnPolish.Model\Dictionary.txt", FileMode.Open))
-            using (var reader = new StreamReader(file))
+            using (var reader = new StringReader(rowWords))
             {
-                while (!reader.EndOfStream)
+                while (true)
                 {
-                    var words =
-                        reader
-                            .ReadLine()
-                            .Split(';');
+                    var line = reader.ReadLine();
+
+                    if (line == null)
+                    {
+                        return;
+                    }
+
+                    var words = line.Split(';');
                     var ukrainian = new Word(words[0], Language.Ukrainian);
                     var polish = new Word(words[1], Language.Polish);
 
