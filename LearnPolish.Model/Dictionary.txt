@@ -40,7 +40,6 @@
 може бути;może
 може;może
 море;morze
-жарт;żart
 готель;hotel
 вухо;ucho
 гора;góra
@@ -119,7 +118,6 @@
 котрий;który
 котра;która
 котре;które
-сьогодні;dziś
 завтра;jutro
 післязавтра;pojutrze
 розуміти;zrozumieć
@@ -165,7 +163,6 @@
 думати;myśleć
 любити;lubić
 виїжджати;wyjeżdżać
-вчитись;uczyć się
 ходити;chodzić
 чистити;czyścić
 повторювати;powtarzać
@@ -207,7 +204,6 @@
 література;literatura
 палатка;namiot
 довгий;długi
-молодий;młody
 власний;własny
 останній;ostatni
 з учорашнього дня;od wczoraj
@@ -250,14 +246,12 @@
 щоб;żeby
 комунікація;komunikacja
 трохи; trochę
-думати;myśleć
 радіти; cieszyć się
 бути правим; mieć rację
 жарт;żart
 цікавий;ciekawy
 мабуть;chyba
 закінчити;kończyć
-високий;wysoki
 брудний;brudny
 працьовитий;pracowity
 великий;gruby
@@ -273,7 +267,6 @@
 гарна;ładna
 втомлений;zmęczony
 спортивний;wysportowany
-молодий;młody
 здоровий;zdrowy
 чистий;chysty
 агресивний;agresywny
@@ -288,6 +281,5 @@
 талановитий; utalentowany
 наголошений; zestresowany
 креативний;kreatywny
-високий;wysoki
 добрий; ładny
 малий;mały
