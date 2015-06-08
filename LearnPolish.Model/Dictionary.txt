@@ -67,7 +67,7 @@
 призвище;nazwisko
 ім'я;imię
 автомобіль;samochód
-фотограія;zdjęcie
+фотографія;zdjęcie
 радіо;radio
 кулькова ручка;długopis
 чашка;filiżanka
@@ -93,7 +93,7 @@
 яке;jakie
 красивий;piękny
 красива;piękna
-красиву;piękne
+красиве;piękne
 високий;wysoki
 висока;wysoka
 високе;wysokie
@@ -245,9 +245,9 @@
 хвилина;minuta
 щоб;żeby
 комунікація;komunikacja
-трохи; trochę
-радіти; cieszyć się
-бути правим; mieć rację
+трохи;trochę
+радіти;cieszyć się
+бути правим;mieć rację
 жарт;żart
 цікавий;ciekawy
 мабуть;chyba
@@ -272,14 +272,14 @@
 агресивний;agresywny
 активний;aktywny
 амбіційний;ambitny
-привабливий; atrakcyjny
+привабливий;atrakcyjny
 енергійний;energiczny
 розумний;inteligentny
 романтичний;romantyczny
-невдалий; sfrustrowany
+невдалий;sfrustrowany
 спонтанний;spontaniczny
-талановитий; utalentowany
-наголошений; zestresowany
+талановитий;utalentowany
+наголошений;zestresowany
 креативний;kreatywny
-добрий; ładny
+добрий;ładny
 малий;mały
