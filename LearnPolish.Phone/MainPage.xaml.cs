@@ -36,11 +36,6 @@ namespace LearnPolish.Phone
         {
             Get().SwitchLanguagesMethod();
         }
-        
-        private void Translate_OnClick(object sender, RoutedEventArgs e)
-        {
-            Get().CheckTranslation();
-        }
 
         private ViewModel.ViewModel Get()
         {
