@@ -24,7 +24,11 @@ namespace LearnPolish.Phone
             if (e.Key == Key.Enter)
             {
                 Get().Translation = TranslationTextBox.Text;
-                Get().CheckTranslation();
+
+                if (Get().CanCheckTranslation)
+                {
+                    Get().CheckTranslation();
+                }
             }
         }
 
