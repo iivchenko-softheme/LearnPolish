@@ -132,7 +132,6 @@
 інфінітив;bezokolicznik
 як ти;co u ciebie
 туалет;toaleta
-грати;grać
 що;żeby
 звичайно;oczywiście
 зазвичай;normalnie
@@ -299,7 +298,6 @@
 пропущений;przepuszczony
 цікавитись;interesować się
 інженер;inżynier
-колега;kolega
 консерваторія;konserwatorium
 голосно;głośno
 тихо;cicho
@@ -308,3 +306,25 @@
 можна;można
 музика;muzyka
 берег;brzeg
+навіть;nawet
+учитель;nauczyciel
+відкривати;otwierać
+відкриватись;otwierać się
+почекати;poczekać
+дозволяти;pozwalać
+друг;przyjaciel
+приємно;przyjemnie
+поїзд;pociąg
+сісти;usiąść
+сідати;siadać
+старатись;starać się
+сусід;sąsiad
+сусідка;sąsiadka
+взагалі;wcale
+увійти;wejść
+вийти;wyjśc
+тому;więc
+візит;wizyta
+повертатись;wracać
+вітатись;witać się
+лекція;wykład
