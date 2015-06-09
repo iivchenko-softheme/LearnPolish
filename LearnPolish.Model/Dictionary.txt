@@ -237,7 +237,7 @@
 інший;inny
 клас;klasa
 віддати;oddać
-этаж;piętro
+поверх;piętro
 варшавский;warszawski
 жіночий;żeński
 тоді;wtedy
@@ -268,7 +268,7 @@
 втомлений;zmęczony
 спортивний;wysportowany
 здоровий;zdrowy
-чистий;chysty
+чистий;czysty
 агресивний;agresywny
 активний;aktywny
 амбіційний;ambitny
@@ -283,3 +283,28 @@
 креативний;kreatywny
 добрий;ładny
 малий;mały
+папір;arkusz
+момент;chwila
+вправлятися;ćwiczyć
+частина;część
+довго;długo
+багато;dużo
+журналістка;dziennikarka
+журналіст;dziennikarz
+дзвоник;dzwonek
+грати;grać
+гратись;bawić się
+лікар;lekarz
+ліжко;łóżko
+пропущений;przepuszczony
+цікавитись;interesować się
+інженер;inżynier
+колега;kolega
+консерваторія;konserwatorium
+голосно;głośno
+тихо;cicho
+коротко;krótko
+закінчуватись;kończyć się
+можна;można
+музика;muzyka
+берег;brzeg
