@@ -20,6 +20,7 @@
     <JavaMaximumHeapSize>100m</JavaMaximumHeapSize>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -68,24 +69,7 @@
     <AndroidResource Include="Resources\Drawable\Icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\Dictionary.txt" />
     <Content Include="Properties\AndroidManifest.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="..\LearnPolish.Model\Language.cs">
-      <Link>LearnPolish.Model\Language.cs</Link>
-    </Compile>
-    <Compile Include="..\LearnPolish.Model\Word.cs">
-      <Link>LearnPolish.Model\Word.cs</Link>
-    </Compile>
-    <Compile Include="..\LearnPolish.Model\WordsSingleton.cs">
-      <Link>LearnPolish.Model\WordsSingleton.cs</Link>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="..\LearnPolish.ViewModel\ViewModel.cs">
-      <Link>LearnPolish.ViewModel\ViewModel.cs</Link>
-    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -95,4 +79,10 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ItemGroup>
+    <ProjectReference Include="..\LearnPolish.Shared\LearnPolish.Android.Shared.csproj">
+      <Project>{665BD095-8D14-4B74-B9A1-AC711796B922}</Project>
+      <Name>LearnPolish.Android.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

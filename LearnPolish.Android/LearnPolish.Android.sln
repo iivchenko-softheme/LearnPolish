@@ -3,12 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnPolish.Android", "LearnPolish.Android.csproj", "{8F511502-6B46-4818-A247-D196046ED7EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnPolish.Android.Shared", "..\LearnPolish.Shared\LearnPolish.Android.Shared.csproj", "{665BD095-8D14-4B74-B9A1-AC711796B922}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{665BD095-8D14-4B74-B9A1-AC711796B922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{665BD095-8D14-4B74-B9A1-AC711796B922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{665BD095-8D14-4B74-B9A1-AC711796B922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{665BD095-8D14-4B74-B9A1-AC711796B922}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8F511502-6B46-4818-A247-D196046ED7EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8F511502-6B46-4818-A247-D196046ED7EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F511502-6B46-4818-A247-D196046ED7EE}.Release|Any CPU.ActiveCfg = Release|Any CPU

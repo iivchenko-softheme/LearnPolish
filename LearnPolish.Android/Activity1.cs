@@ -6,16 +6,18 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using LearnPolish.Model;
+using LearnPolish.Phone.ViewModel;
+using LearnPolish.Phone.Model;
 
 namespace LearnPolish.Android
 {
 	[Activity(Label = "Polski Krok po Kroku", MainLauncher = true, Icon = "@drawable/icon")]
     public class Activity1 : Activity
     {
-        private ViewModel.ViewModel _viewModel;
+        private ViewModel _viewModel;
 		private TextView labWord; 
 		private Button buttonSwitchLanguage;
+		private Button buttonTranslate;
 		private EditText edit;
         
         protected override void OnCreate(Bundle bundle)
@@ -25,10 +27,11 @@ namespace LearnPolish.Android
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            _viewModel = new ViewModel.ViewModel(new StreamReader(Assets.Open("Dictionary.txt")).ReadToEnd());
+            _viewModel = new ViewModel(new StreamReader(Assets.Open("Dictionary.txt")).ReadToEnd());
 
             labWord = FindViewById<TextView>(Resource.Id.labWord);
 			buttonSwitchLanguage = FindViewById<Button>(Resource.Id.buttonSwitchLanguage);
+			buttonTranslate = FindViewById<Button>(Resource.Id.buttonTranslate);
             edit = FindViewById<EditText>(Resource.Id.latText);
 
 			labWord.SetBackgroundColor (new global::Android.Graphics.Color (0, 0, 0));
@@ -51,6 +54,28 @@ namespace LearnPolish.Android
 
 				labWord.Text = _viewModel.Word;
             };		
+
+			buttonTranslate.Click += (object sender, EventArgs e) => 
+			{
+				_viewModel.Translation = edit.Text;
+
+				if (_viewModel.CanCheckTranslation)
+				{
+					_viewModel.CheckTranslation();
+
+					if (_viewModel.Wrong)
+					{
+						labWord.SetBackgroundColor (new global::Android.Graphics.Color (255, 0, 0));
+						edit.Text = _viewModel.Translation;
+					}
+					else
+					{
+						labWord.Text = _viewModel.Word;
+						labWord.SetBackgroundColor (new global::Android.Graphics.Color (0, 0, 0));
+						edit.Text = string.Empty;
+					}				
+				}
+			};
 
 			edit.KeyPress += (object sender, View.KeyEventArgs e) => 
 			{

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
@@ -7,7 +7,9 @@
 		android:id="@+id/labWord"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="fill_parent"
-        android:layout_height="75dp"
+        android:singleLine="false"
+        android:maxLines="3"
+        android:layout_height="150dp"
         android:textSize="50dp"
         android:gravity="center"/>    
     <EditText
@@ -15,11 +17,23 @@
         android:layout_width="fill_parent"
         android:layout_height="50dp"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_marginLeft="5dp" />	
+        android:layout_below="@id/labWord"/>	
     <Button
-        android:id="@+id/buttonSwitchLanguage"
-        android:layout_width="300dp"
+        android:id="@+id/buttonTranslate"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:textAppearance="?android:attr/textAppearanceLarge" />   
-</LinearLayout>
+        android:text="Translate"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/latText"/>   
+    <Button
+        android:id="@+id/buttonSwitchLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:layout_below="@id/latText"
+        android:layout_toLeftOf="@id/buttonTranslate"
+        android:layout_alignTop="@id/buttonTranslate"/>   
+</RelativeLayout>
