@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
 
-namespace LearnPolish.ViewModel
+namespace LearnPolish.Phone.ViewModel
 {
     public class RelayCommand : ICommand, INotifyPropertyChanged
     {

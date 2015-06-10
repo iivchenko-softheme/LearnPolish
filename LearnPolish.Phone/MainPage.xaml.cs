@@ -12,7 +12,7 @@ namespace LearnPolish.Phone
         {
             InitializeComponent();
 
-            using (var file = File.Open(@"LearnPolish.Model/Dictionary.txt", FileMode.Open))
+            using (var file = File.Open(@"Assets/Dictionary.txt", FileMode.Open))
             using (var reader = new StreamReader(file))
             {
                 DataContext = new ViewModel.ViewModel(reader.ReadToEnd());

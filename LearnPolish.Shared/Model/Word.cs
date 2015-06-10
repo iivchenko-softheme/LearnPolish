@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LearnPolish.Model
+namespace LearnPolish.Phone.Model
 {
     public class Word
     {

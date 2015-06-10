@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
-using LearnPolish.Model;
+using LearnPolish.Phone.Model;
 
-namespace LearnPolish.ViewModel
+namespace LearnPolish.Phone.ViewModel
 {
     public class ViewModel : INotifyPropertyChanged
     {

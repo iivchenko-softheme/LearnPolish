@@ -147,26 +147,7 @@
       <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="..\LearnPolish.Model\Language.cs">
-      <Link>LearnPolish.Model\Language.cs</Link>
-    </Compile>
-    <Compile Include="..\LearnPolish.Model\Word.cs">
-      <Link>LearnPolish.Model\Word.cs</Link>
-    </Compile>
-    <Compile Include="..\LearnPolish.Model\WordsSingleton.cs">
-      <Link>LearnPolish.Model\WordsSingleton.cs</Link>
-    </Compile>
-    <None Include="..\LearnPolish.Model\Dictionary.txt">
-      <Link>LearnPolish.Model\Dictionary.txt</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="..\LearnPolish.ViewModel\ViewModel.cs">
-      <Link>LearnPolish.ViewModel\ViewModel.cs</Link>
-    </Compile>
-  </ItemGroup>
+  <Import Project="..\LearnPolish.Shared\LearnPolish.Shared.projitems" Label="Shared" Condition="Exists('..\LearnPolish.Shared\LearnPolish.Shared.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

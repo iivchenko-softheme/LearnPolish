@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.40418.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnPolish.Phone", "LearnPolish.Phone\LearnPolish.Phone.csproj", "{60E4B66F-B2A7-4640-81ED-A218FDDB9274}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "LearnPolish.Shared", "LearnPolish.Shared\LearnPolish.Shared.shproj", "{7C033345-84B7-4FCA-AA69-472141DF8CCF}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		LearnPolish.Shared\LearnPolish.Shared.projitems*{7c033345-84b7-4fca-aa69-472141df8ccf}*SharedItemsImports = 13
+		LearnPolish.Shared\LearnPolish.Shared.projitems*{60e4b66f-b2a7-4640-81ed-a218fddb9274}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM = Debug|ARM
@@ -40,5 +46,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection	
+	EndGlobalSection
 EndGlobal

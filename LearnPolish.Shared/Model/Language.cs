@@ -1,4 +1,4 @@
-﻿namespace LearnPolish.Model
+﻿namespace LearnPolish.Phone.Model
 {
     public enum Language
     {

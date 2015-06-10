@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>7c033345-84b7-4fca-aa69-472141df8ccf</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>LearnPolish.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Dictionary.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Language.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Word.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\WordsSingleton.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\RelayCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\ViewModel.cs" />
+  </ItemGroup>
+</Project>

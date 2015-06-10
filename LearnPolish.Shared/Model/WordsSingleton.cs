@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace LearnPolish.Model
+namespace LearnPolish.Phone.Model
 {
     public sealed class Words
     {
