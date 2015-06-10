@@ -46,8 +46,11 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="Polski Krok po Kroku" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0"/>
-            <TextBlock Name="Word" Text="{Binding Word}" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+
+            <TextBlock TextWrapping="Wrap" Text="Polski Krok po Kroku" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0"/>
+            <StackPanel Orientation="Vertical">
+                <TextBlock TextWrapping="Wrap" Name="Word" Text="{Binding Word}" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            </StackPanel>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
@@ -55,37 +58,36 @@
 
             <!--FocusManager.FocusedElement="{Binding ElementName=TranslationTextBox}"-->
 
-            <Grid.RowDefinitions>
-                <RowDefinition Height="75"></RowDefinition>
-                <RowDefinition Height="75"></RowDefinition>
-            </Grid.RowDefinitions>
-
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="150"></ColumnDefinition>
                 <ColumnDefinition Width="*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            
-            <Button 
+
+            <StackPanel
                 Grid.Row = "0"
-                Grid.Column="0"
-                Content="{Binding WordLanguage, Converter={StaticResource LanguageConverter}}"
-                Click="SwitchLanguages_OnClick">
-            </Button>
+                Grid.Column="0">
+                <Button 
+                    Height="75"
+                    Content="{Binding WordLanguage, Converter={StaticResource LanguageConverter}}"
+                    Click="SwitchLanguages_OnClick">
+                </Button>
+            </StackPanel>
 
-            <TextBox
+            <StackPanel
                 Grid.Row="0"
-                Grid.Column="1"
-                Name="TranslationTextBox"
-                HorizontalAlignment="Stretch"
-                Text="{Binding Translation, Mode=TwoWay, UpdateSourceTrigger=Default}"
-                KeyDown="TextBox_OnKeyDown"/>
-
-            <TextBlock
-                Grid.Row="1"
-                Grid.Column="1"
-                Foreground="Red"
-                Visibility="{Binding Wrong, Converter={StaticResource VisibilityConverter}}"
-                Text="Wrong"/>
+                Grid.Column="1">
+                <TextBox
+                    Name="TranslationTextBox"
+                    HorizontalAlignment="Stretch"
+                    Text="{Binding Translation, Mode=TwoWay, UpdateSourceTrigger=Default}"
+                    KeyDown="TextBox_OnKeyDown"
+                    TextWrapping="Wrap"/>
+                <TextBlock
+                    Foreground="Red"
+                    Visibility="{Binding Wrong, Converter={StaticResource VisibilityConverter}}"
+                    Text="Wrong"/>
+            </StackPanel>
+           
         </Grid>
 
         <!--Uncomment to see an alignment grid to help ensure your controls are
