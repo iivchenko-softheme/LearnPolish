@@ -14,7 +14,7 @@ namespace LearnPolish.ViewModel
 
         private readonly Words _wordsSingleton;
 
-        private readonly IList<Word> _words;
+        private IList<Word> _words;
 
         private string _word; // Word to translate.
         private string _translation;// Translation of the word.
@@ -65,6 +65,8 @@ namespace LearnPolish.ViewModel
             set
             {
                 _wordLanguage = value;
+
+                _words = new List<Word>();
 
                 NextWord();
 
